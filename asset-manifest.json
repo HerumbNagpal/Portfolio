@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.9874434e.css",
+    "main.js": "/Portfolio/static/js/main.1cfd0aff.js",
+    "static/media/proj.jpg": "/Portfolio/static/media/proj.a1cf45330e8ab54e6d56.jpg",
+    "static/media/resumeBG.jpg": "/Portfolio/static/media/resumeBG.6abeed0c7e74dd1c0ddb.jpg",
+    "static/media/pic.jpg": "/Portfolio/static/media/pic.0d91212087b46553f47f.jpg",
+    "static/media/earth-earthday.gif": "/Portfolio/static/media/earth-earthday.024b53dc42123f0e6c17.gif",
+    "static/media/jim.gif": "/Portfolio/static/media/jim.a1ff0cae3b7abb0e2fa5.gif",
+    "static/media/shoes.gif": "/Portfolio/static/media/shoes.9e43718a780cd58da5d5.gif",
+    "static/media/fbird.gif": "/Portfolio/static/media/fbird.870712561693667955c4.gif",
+    "index.html": "/Portfolio/index.html",
+    "main.9874434e.css.map": "/Portfolio/static/css/main.9874434e.css.map",
+    "main.1cfd0aff.js.map": "/Portfolio/static/js/main.1cfd0aff.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9874434e.css",
+    "static/js/main.1cfd0aff.js"
+  ]
+}
