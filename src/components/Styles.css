@@ -1,0 +1,332 @@
+/* NAVBAR */
+.navbar {
+  /* background-color: #FFFBF5; */
+  display: flex;
+  justify-content: space-between;
+  padding-left: 4rem;
+}
+
+.name {
+  color: black;
+  font-size: 25px;
+  margin-top: 25px;
+  letter-spacing: 0.7rem;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.menu {
+  display: flex;
+  justify-content: stretch;
+  color: white;
+  font-size: 15px;
+}
+.menuItem {
+  color: black;
+  gap: 2rem;
+  padding: 2rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* HOME */
+
+.home {
+  padding: 10rem 18rem;
+}
+
+/* FOOTER */
+.footer {
+  padding: 5rem;
+  background-color: #181823;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  gap: 2rem;
+}
+
+/* SKILLS */
+.resumeBg {
+  width: 100%;
+  height: 60vh;
+  object-fit: cover;
+  background-size: 100%;
+  background-position: 10% 35%;
+  background-repeat: no-repeat;
+}
+.resume {
+  position: absolute;
+  top: 35%;
+  left: 45%;
+  color: aliceblue;
+  font-size: 50px;
+}
+.overResume {
+  position: absolute;
+  top: 10;
+  left: 0;
+  width: 100%;
+  height: 60%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.line {
+  border: 1px solid black;
+  margin: 5rem 3rem;
+
+  align-items: center;
+}
+.details {
+  padding: 10rem 15rem;
+}
+
+.eHeading {
+  font-size: 30px;
+}
+.eDetails {
+  padding: 1rem;
+  font-weight: bold;
+}
+
+.xHeading {
+  font-size: 30px;
+}
+.xCompany {
+  padding: 1rem;
+  font-weight: bold;
+  font-size: 17px;
+}
+.xSummary {
+  padding: 0 2rem;
+}
+
+.tHeading {
+  font-size: 30px;
+}
+.skillx {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem 4rem;
+}
+.knowledge {
+  display: flex;
+  flex-direction: row;
+}
+.levelB {
+  margin-right: 5px;
+  height: 7px;
+  width: 20px;
+  background-color: black;
+}
+.levelW {
+  margin-right: 5px;
+  height: 5px;
+  width: 20px;
+  background-color: white;
+  border: 1px solid black;
+}
+.hHeading {
+  font-size: 30px;
+}
+
+.hobbyContainer {
+  column-count: 2;
+  column-gap: 20rem;
+  padding: 3rem;
+}
+
+.l {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 1rem;
+}
+.cHeading {
+  font-size: 30px;
+}
+.contactContainer {
+  column-count: 2;
+  column-gap: 20rem;
+  padding: 3rem;
+}
+.cInfo {
+  display: flex;
+  flex-direction: row;
+  padding: 0.9rem;
+  justify-content: center;
+  align-items: center;
+}
+
+/* PROJECTS */
+.projectBg {
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+  background-size: 50%;
+  background-position: 10% 65%;
+  background-repeat: no-repeat;
+}
+.overProject {
+  position: absolute;
+  top: 10;
+  left: 0;
+  width: 100%;
+  height: 50vh;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.project {
+  position: absolute;
+  top: 35%;
+  left: 45%;
+  color: aliceblue;
+  font-size: 50px;
+}
+
+.pContainer {
+  padding: 10rem 15rem;
+}
+
+.pCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(236, 246, 255);
+  padding: 2rem;
+  margin: 2rem;
+}
+.pName {
+  padding: 3rem;
+}
+.pTitle {
+  padding: 1rem;
+}
+
+@media screen and (max-width: 770px) {
+  /* PROJECTS */
+  .project {
+    top: 30%;
+    left: 36%;
+  }
+  .pContainer {
+    padding: 1rem;
+  }
+  .pCard {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .pName {
+    padding: 0.3rem;
+    margin-top: 1rem;
+  }
+  /* SkILLS */
+  .resume {
+    top: 40%;
+    left: 40%;
+  }
+
+  .details {
+    padding: 2rem;
+  }
+  .skillx {
+    padding: 2rem;
+  }
+  .hobbyContainer {
+    padding: 3rem 3rem 0 3rem;
+  }
+  .contactContainer{
+    padding: 1rem;
+    column-gap: 10rem;
+  }
+
+  .name {
+    font-size: 18px;
+  }
+  .menu {
+    font-size: 10px;
+  }
+  .menuItem {
+    gap: 0.2rem;
+  }
+  /* HOME BG */
+
+  /* HOME */
+  .home {
+    padding: 4rem;
+    z-index: 1;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  /* NAVBAR */
+  .navbar {
+    margin-left: 0;
+    padding: 0.1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .name {
+    font-size: 18px;
+  }
+  .menu {
+    font-size: 10px;
+  }
+  .menuItem {
+    gap: 0.2rem;
+  }
+  /* HOME BG */
+
+  /* HOME */
+  .home {
+    padding: 2rem;
+    z-index: 1;
+  }
+
+  /* SkILLS */
+  .resume {
+    top: 50%;
+    left: 28%;
+  }
+
+  .details {
+    padding: 2rem;
+  }
+  .skillx {
+    padding: 2rem;
+  }
+  .hobbyContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 0.6rem;
+    margin-top: 2rem;
+  }
+  .contactContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 0.6rem;
+    margin-top: 2rem;
+  }
+
+  /* PROJECTS */
+  .project {
+    top: 40%;
+    left: 7rem;
+  }
+  .pContainer {
+    padding: 1rem;
+  }
+  .pCard {
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  .pName {
+    padding: 0.3rem;
+    margin-top: 1rem;
+  }
+  .pScreenshot {
+    margin: -1.3rem;
+  }
+}
