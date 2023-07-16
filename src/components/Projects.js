@@ -55,7 +55,7 @@ export const Projects = () => {
                             Gym Website
                         </h3>
                         <p className='pDesc'>
-                            A web application built for a gym. The website shoes all the training programs and the membership details for a new member wanting to join the community. <br /> <br /> Fully responsive webite and works on every device.
+                            A web application built for a gym. The website shows all the training programs and the membership details for a new member wanting to join the community. <br /> <br /> Fully responsive webite and works on every device.
                         </p>
                         <br /><br /><br />
                         <a style={{ color: 'inherit', textDecoration: 'inherit' }} href="https://herumbnagpal.github.io/jim/" target='_blank' rel="noopener noreferrer">Click here for the demo. </a>

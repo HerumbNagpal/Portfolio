@@ -27,9 +27,12 @@ export const Skills = () => {
         </div>
         <div className="exp">
           <h3 className='xHeading' >Practical Experience</h3>
+          <br />
+          <p className='xCompany' > MERN Developer Intern • Internship • CoreTech Info (April'23 - May'23)</p>
+          <p className='xSummary' > Learned about REST APIs. Handling the backend with NodeJS and SQL along with the frontend with ReactJS of a project for a client  </p>
           <p className='xCompany' > Software Developer Intern • Internship • CppSecrets (June'22 - July'22)</p>
           <p className='xSummary' > Worked on the C++ library called raylib which is used to make videogames. Created a 2D arcade game called flappy birds  </p>
-          <p className='xCompany' > C++ Development Associate • Internship • The Entrepreneuship Network (Oct'21 - Dec'21)</p>
+          <p className='xCompany' > C++ Development Associate • Internship • The Entrepreneurship Network (Oct'21 - Dec'21)</p>
           <p className='xSummary' > Learned about the C++ file managment system and worked on projects along with the team members. Implemented the knowledge gained on a project called supermarket billing system.  </p>
           <div className="line"></div>
         </div>
