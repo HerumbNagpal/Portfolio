@@ -8,7 +8,7 @@ function App() {
   const el = useRef(null);
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["STUDENT", "CODER","ATHLETE"],
+      strings: ["Developer","Athlete", "Designer"],
       startDelay: 150,
       typeSpeed: 150,
       backDelay: 150,
@@ -25,7 +25,7 @@ function App() {
       <div className='over' ></div>
       {/* <video src={vid} autoPlay muted loop /> */}
       <div className='content'>
-        <h1>Hello I'm Herumb and <br></br> I am a <span className='change' ref={el} ></span>  </h1>
+        <h1>Hello I'm Herumb and   <br></br> I'm a <span className='change' ref={el} ></span>  </h1>
       </div>
 
     </div>

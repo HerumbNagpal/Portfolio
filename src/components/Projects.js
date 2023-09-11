@@ -6,6 +6,7 @@ import weather from '../assets/images/earth-earthday.gif'
 import shoes from '../assets/images/shoes.gif'
 import jim from '../assets/images/jim.gif'
 import bird from '../assets/images/fbird.gif'
+import calculator from '../assets/images/calc.gif'
 
 export const Projects = () => {
     return (
@@ -79,6 +80,21 @@ export const Projects = () => {
                     </div>
                     <div className="pScreenshot">
                         <img src={bird} height="300px" width="300px" alt="" />
+                    </div>
+                </div>
+                <div className="pCard">
+                    <div className='pName'>
+                        <h3 className='pTitle'>
+                            Calculator App
+                        </h3>
+                        <p className='pDesc'>
+                            A mobile application which can be used to perform mathematical calulations. <br/> The app was developed in React-Native framework along with Redux.
+                        </p>
+                        <br /><br /><br />
+                        <a style={{ color: 'inherit', textDecoration: 'inherit' }} href="/apk/myCalculator.apk"  download>Click here to download and install the apk . </a>
+                    </div>
+                    <div className="pScreenshot">
+                        <img src={calculator} height="300px" width="300px" alt="" />
                     </div>
                 </div>
                 <h2> More to come....</h2>

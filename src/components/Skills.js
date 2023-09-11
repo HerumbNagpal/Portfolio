@@ -20,7 +20,7 @@ export const Skills = () => {
       <div className='details'>
         <div className='education' >
           <h3 className='eHeading' >Education</h3>
-          <p className='eDetails'> B.Tech in Computer Science and Engineering, Bhagwan Parshuram Institute of Technology - 2019 - current </p>
+          <p className='eDetails'> B.Tech in Computer Science and Engineering, Bhagwan Parshuram Institute of Technology - 2019 - 2023 </p>
           <p className='eDetails'> XII CBSE, Ryan International School - 2019 </p>
           <p className='eDetails'> X CBSE, Ryan International School - 2017 </p>
           <div className="line"></div>
@@ -28,17 +28,20 @@ export const Skills = () => {
         <div className="exp">
           <h3 className='xHeading' >Practical Experience</h3>
           <br />
+          <p className='xCompany' > Software Developer Intern • Internship •  Alphech Global Pvt Ltd  (August'23 - Current)</p>
+          <p className='xSummary' > Working on a live project for an international client. Using MERN stack to develop a SAAS model called Senior Life (Mexico). Learning about the react-native framework for building mobile applications  </p>
+
           <p className='xCompany' > MERN Developer Intern • Internship • CoreTech Info (April'23 - May'23)</p>
-          <p className='xSummary' > Learned about REST APIs. Developed the backend with NodeJS and SQL along with the frontend with ReactJS of a project for a client  </p>
+          <p className='xSummary' > Learned about REST APIs. Worked on a live project for a client. Developed the REST APIs using NodeJS and used the SQL as the database along with the frontend with ReactJS and Material UI for the admin dashboard.  </p>
           <p className='xCompany' > Software Developer Intern • Internship • CppSecrets (June'22 - July'22)</p>
-          <p className='xSummary' > Worked on the C++ library called raylib which is used to make videogames. Created a 2D arcade game called flappy birds  </p>
+          <p className='xSummary' > Learnt about C++ library called Raylib,which is used to for making video games. Implemented the gained knowledge on a self project. Created a 2D arcade game called flappy birds  </p>
           <p className='xCompany' > C++ Development Associate • Internship • The Entrepreneurship Network (Oct'21 - Dec'21)</p>
           <p className='xSummary' > Learned about the C++ file managment system and worked on projects along with the team members. Implemented the knowledge gained on a project called supermarket billing system.  </p>
           <div className="line"></div>
         </div>
         <div className="techskills">
 
-          <h3 className='tHeading' >Technical Skills</h3>
+          <h3 className='tHeading' style={{paddingBottom:15}}>Technical Skills</h3>
           <div className="skillx">
             <p className='tSkill'> C++ </p>
             <div className='knowledge'>
@@ -115,6 +118,38 @@ export const Skills = () => {
 
         </div>
 
+        <div className="techskills">
+
+          <h3 className='tHeading' style={{paddingBottom:15}} >Design Skills</h3>
+          
+          <div className="skillx">
+            <p className='tSkill'> Adobe XD </p>
+            <div className='knowledge'>
+              <div className="levelB"></div>
+              <div className="levelW"></div>
+              <div className="levelW"></div>
+            </div>
+          </div>
+          <div className="skillx">
+            <p className='tSkill'> Canva </p>
+            <div className='knowledge'>
+              <div className="levelB"></div>
+              <div className="levelB"></div>
+              <div className="levelW"></div>
+            </div>
+          </div>
+          <div className="skillx">
+            <p className='tSkill'> Figma </p>
+            <div className='knowledge'>
+              <div className="levelB"></div>
+              <div className="levelB"></div>
+              <div className="levelW"></div>
+            </div>
+          </div>
+
+          <div className="line"></div>
+        </div>
+
         <div className="hobbies">
           <h3 className='hHeading' >Hobbies</h3>
           <div className='hobbyContainer' >
@@ -142,11 +177,11 @@ export const Skills = () => {
           <h3 className='cHeading' >Contact</h3>
           <div className='contactContainer' >
             <div className='cInfo' >
-              <img src={phone}  height = "30px" alt="cell" />
+              <img src={phone} height="30px" alt="cell" />
               <a href="tel:8800913015" style={{ color: 'inherit', textDecoration: 'inherit', paddingLeft: "15px" }}  >  8800913015</a>
             </div>
             <div className='cInfo' >
-              <img src={mail} height = "25px"  alt="cell" />
+              <img src={mail} height="25px" alt="cell" />
               <a href="mailto:herumbn@gmail.com" style={{ color: 'inherit', textDecoration: 'inherit', paddingLeft: "15px" }}  > herumbn@gmail.com</a>
             </div>
           </div>
