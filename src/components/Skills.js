@@ -28,20 +28,23 @@ export const Skills = () => {
         <div className="exp">
           <h3 className='xHeading' >Practical Experience</h3>
           <br />
-          <p className='xCompany' > Software Developer Intern • Internship •  Alphech Global Pvt Ltd  (August'23 - Current)</p>
-          <p className='xSummary' > Working on a live project for an international client. Using MERN stack to develop a SAAS model called Senior Life (Mexico). Learning about the react-native framework for building mobile applications  </p>
+          <p className='xCompany' > Software Developer Intern • Internship •  Alphech Global Pvt Ltd  (August'23 - September'23)</p>
+          <p className='xSummary' > Worked on multiple live projects in parallel. Developed a SAAS-based software called <a style={{ color: 'inherit', fontWeight : '600' ,textDecoration: 'inherit' }} href="https://seniorlife-nprd.azurewebsites.net/"  target='_blank' rel='noreferrer'> Senior Life </a> using MERN stack, for an international client 🇲🇽 . Also worked on one of the company products and developed the frontend and the backend APIs using NestJS along with team members. </p>
 
           <p className='xCompany' > MERN Developer Intern • Internship • CoreTech Info (April'23 - May'23)</p>
           <p className='xSummary' > Learned about REST APIs. Worked on a live project for a client. Developed the REST APIs using NodeJS and used the SQL as the database along with the frontend with ReactJS and Material UI for the admin dashboard.  </p>
+
           <p className='xCompany' > Software Developer Intern • Internship • CppSecrets (June'22 - July'22)</p>
           <p className='xSummary' > Learnt about C++ library called Raylib,which is used to for making video games. Implemented the gained knowledge on a self project. Created a 2D arcade game called flappy birds  </p>
+
           <p className='xCompany' > C++ Development Associate • Internship • The Entrepreneurship Network (Oct'21 - Dec'21)</p>
           <p className='xSummary' > Learned about the C++ file managment system and worked on projects along with the team members. Implemented the knowledge gained on a project called supermarket billing system.  </p>
+
           <div className="line"></div>
         </div>
         <div className="techskills">
 
-          <h3 className='tHeading' style={{paddingBottom:15}}>Technical Skills</h3>
+          <h3 className='tHeading' style={{ paddingBottom: 15 }}>Technical Skills</h3>
           <div className="skillx">
             <p className='tSkill'> C++ </p>
             <div className='knowledge'>
@@ -73,6 +76,13 @@ export const Skills = () => {
             </div>
           </div><div className="skillx">
             <p className='tSkill'> NodeJS </p>
+            <div className='knowledge'>
+              <div className="levelB"></div>
+              <div className="levelW"></div>
+              <div className="levelW"></div>
+            </div>
+          </div><div className="skillx">
+            <p className='tSkill'> NestJS </p>
             <div className='knowledge'>
               <div className="levelB"></div>
               <div className="levelW"></div>
@@ -120,8 +130,8 @@ export const Skills = () => {
 
         <div className="techskills">
 
-          <h3 className='tHeading' style={{paddingBottom:15}} >Design Skills</h3>
-          
+          <h3 className='tHeading' style={{ paddingBottom: 15 }} >Designing Skills</h3>
+
           <div className="skillx">
             <p className='tSkill'> Adobe XD </p>
             <div className='knowledge'>
