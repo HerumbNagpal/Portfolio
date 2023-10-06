@@ -91,7 +91,8 @@ export const Projects = () => {
                             A mobile application which can be used to perform mathematical calulations. <br/> The app was developed in React-Native framework along with Redux.
                         </p>
                         <br /><br /><br />
-                        <a style={{ color: 'inherit', textDecoration: 'inherit' }} href="/apk/myCalculator.apk"  download='myCalculator.apk'>Click here to download and install the apk . </a>
+                        {/* <a style={{ color: 'inherit', textDecoration: 'inherit' }} href="https://drive.google.com/drive/folders/1u3Rmb4Nn1pmqy6zPu7OI0434qQZaXkVu?usp=drive_link" target='_blank' rel='noopener norefferer' >Click here to download and install the apk . </a> */}
+                        <a style={{ color: 'inherit', textDecoration: 'inherit' }} href="/apk/myCalculator.apk"  download='myCalculator.apk'>Click here to download the apk . </a>
                     </div>
                     <div className="pScreenshot">
                         <img src={calculator} height="300px" width="300px" alt="" />
