@@ -7,6 +7,7 @@ import shoes from '../assets/images/shoes.gif'
 import jim from '../assets/images/jim.gif'
 import bird from '../assets/images/fbird.gif'
 import calculator from '../assets/images/calc.gif'
+import ebook from '../assets/images/ebook.gif'
 
 export const Projects = () => {
     return (
@@ -91,11 +92,28 @@ export const Projects = () => {
                             A mobile application which can be used to perform mathematical calulations. <br/> The app was developed in React-Native framework along with Redux.
                         </p>
                         <br /><br /><br />
-                        <a style={{ color: 'inherit', textDecoration: 'inherit' }} href="https://drive.google.com/drive/folders/1u3Rmb4Nn1pmqy6zPu7OI0434qQZaXkVu?usp=drive_link" target='_blank' rel='noopener norefferer' >Click here to download and install the apk . </a>
+                        <a style={{ color: 'inherit', textDecoration: 'inherit' }} href="https://drive.google.com/drive/folders/1u3Rmb4Nn1pmqy6zPu7OI0434qQZaXkVu?usp=drive_link" target='_blank' rel='noopener noreferrer' >Click here to download and install the apk . </a>
                         {/* <a style={{ color: 'inherit', textDecoration: 'inherit' }} href="/apk/myCalculator.apk"  download='myCalculator.apk'>Click here to download the apk . </a> */}
                     </div>
                     <div className="pScreenshot">
                         <img src={calculator} height="300px" width="300px" alt="" />
+                    </div>
+                </div>
+
+                <div className="pCard">
+                    <div className='pName'>
+                        <h3 className='pTitle'>
+                            nodePad
+                        </h3>
+                        <p className='pDesc'>
+                            A web based application where you can add multiple notes and tasks. You can create your account which make all your data private. Mobile APK also available for the android. 
+                        </p>
+                        <br /><br /><br />
+                        <a style={{ color: 'inherit', textDecoration: 'inherit' }} href="https://herumbnagpal.github.io/nodePad-client/" target='_blank' rel='noopener noreferrer' >Click here to checkout the website. </a> <br />
+                        {/* <a style={{ color: 'inherit', textDecoration: 'inherit' }} href="https://drive.google.com/drive/folders/1u3Rmb4Nn1pmqy6zPu7OI0434qQZaXkVu?usp=drive_link" target='_blank' rel='noopener norefferer' >Or to download and install the apk . </a> */}
+                    </div>
+                    <div className="pScreenshot">
+                        <img src={ebook} height="300px" width="300px" alt="" />
                     </div>
                 </div>
                 <h2> More to come....</h2>

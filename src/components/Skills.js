@@ -28,6 +28,11 @@ export const Skills = () => {
         <div className="exp">
           <h3 className='xHeading' >Practical Experience</h3>
           <br />
+          
+          <p className='xCompany' > Software Engineer • Full-time •  Venuelook (October'23 - Present)</p>
+          <p className='xSummary' > Working with senior developers and designers to redesign the company website <a style={{ color: 'inherit', fontWeight : '600' ,textDecoration: 'inherit' }} href="https://www.venuelook.com/"  target='_blank' rel='noreferrer'> (Venuelook) </a> . Simultaneously transforming the website from a PHP-based platform into a modern and responsive web application powered by ReactJS. </p>
+
+          
           <p className='xCompany' > Software Developer Intern • Internship •  Alphech Global Pvt Ltd  (August'23 - September'23)</p>
           <p className='xSummary' > Worked on multiple live projects in parallel. Developed a SAAS-based software called <a style={{ color: 'inherit', fontWeight : '600' ,textDecoration: 'inherit' }} href="https://seniorlife-nprd.azurewebsites.net/"  target='_blank' rel='noreferrer'> Senior Life </a> using MERN stack, for an international client 🇲🇽 . Also worked on one of the company products and developed the frontend and the backend APIs using NestJS along with team members. </p>
 
