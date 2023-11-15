@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.4813d22f.css",
-    "main.js": "/Portfolio/static/js/main.00f6a0bf.js",
+    "main.js": "/Portfolio/static/js/main.8919fdd8.js",
     "static/media/calc.gif": "/Portfolio/static/media/calc.7b4d0b7d8f2744ba3985.gif",
     "static/media/proj.jpg": "/Portfolio/static/media/proj.a1cf45330e8ab54e6d56.jpg",
     "static/media/resumeBG.jpg": "/Portfolio/static/media/resumeBG.6abeed0c7e74dd1c0ddb.jpg",
@@ -9,13 +9,14 @@
     "static/media/earth-earthday.gif": "/Portfolio/static/media/earth-earthday.024b53dc42123f0e6c17.gif",
     "static/media/jim.gif": "/Portfolio/static/media/jim.a1ff0cae3b7abb0e2fa5.gif",
     "static/media/shoes.gif": "/Portfolio/static/media/shoes.9e43718a780cd58da5d5.gif",
+    "static/media/ebook.gif": "/Portfolio/static/media/ebook.5649a2c7abe63f2adc17.gif",
     "static/media/fbird.gif": "/Portfolio/static/media/fbird.870712561693667955c4.gif",
     "index.html": "/Portfolio/index.html",
     "main.4813d22f.css.map": "/Portfolio/static/css/main.4813d22f.css.map",
-    "main.00f6a0bf.js.map": "/Portfolio/static/js/main.00f6a0bf.js.map"
+    "main.8919fdd8.js.map": "/Portfolio/static/js/main.8919fdd8.js.map"
   },
   "entrypoints": [
     "static/css/main.4813d22f.css",
-    "static/js/main.00f6a0bf.js"
+    "static/js/main.8919fdd8.js"
   ]
 }
