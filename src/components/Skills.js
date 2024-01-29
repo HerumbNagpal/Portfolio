@@ -20,7 +20,8 @@ export const Skills = () => {
       <div className='details'>
         <div className='education' >
           <h3 className='eHeading' >Education</h3>
-          <p className='eDetails'> B.Tech in Computer Science and Engineering, Bhagwan Parshuram Institute of Technology - 2019 - 2023 </p>
+          <p className='eDetails'> B.Tech in Computer Science and Engineering, Guru Gobind Singh Indraprastha University - 2019 - 2023 </p>
+          {/* <p className='eDetails'> B.Tech CSE, Guru Gobind Singh Indraprastha University - 2019 - 2023 </p> */}
           <p className='eDetails'> XII CBSE, Ryan International School - 2019 </p>
           <p className='eDetails'> X CBSE, Ryan International School - 2017 </p>
           <div className="line"></div>
@@ -29,8 +30,8 @@ export const Skills = () => {
           <h3 className='xHeading' >Practical Experience</h3>
           <br />
           
-          <p className='xCompany' > Software Engineer • Full-time •  Venuelook (October'23 - Present)</p>
-          <p className='xSummary' > Working with senior developers and designers to redesign the company website <a style={{ color: 'inherit', fontWeight : '600' ,textDecoration: 'inherit' }} href="https://www.venuelook.com/"  target='_blank' rel='noreferrer'> (Venuelook) </a> . Simultaneously transforming the website from a PHP-based platform into a modern and responsive web application powered by ReactJS. </p>
+          <p className='xCompany' > Software Engineer • Full-time •  Venuelook (October'23 - December'23)</p>
+          <p className='xSummary' > Worked with senior developers and designers to redesign the company website <a style={{ color: 'inherit', fontWeight : '600' ,textDecoration: 'inherit' }} href="https://www.venuelook.com/"  target='_blank' rel='noreferrer'> (Venuelook) </a> . Simultaneously transformed the website from a PHP-based platform into a modern and responsive web application powered by ReactJS. </p>
 
           
           <p className='xCompany' > Software Developer Intern • Internship •  Alphech Global Pvt Ltd  (August'23 - September'23)</p>
