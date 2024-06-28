@@ -8,7 +8,7 @@ function App() {
   const el = useRef(null);
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["Developer","Athlete", "Designer"],
+      strings: ["Developer","Athlete", "Designer","Analyst"],
       startDelay: 150,
       typeSpeed: 150,
       backDelay: 150,

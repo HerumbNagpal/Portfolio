@@ -30,6 +30,10 @@ export const Skills = () => {
           <h3 className='xHeading' >Practical Experience</h3>
           <br />
           
+          <p className='xCompany' > Data Analyst • Full-time •  ZS (May'24 - Present)</p>
+          <p className='xSummary' > Working with Consaltants and Associate Consultants and other analysts to clean and interpret data of Pfizer to help them grow in the pharmaceutical industry (Rare Diseases and Oncology). </p>
+
+
           <p className='xCompany' > Software Engineer • Full-time •  Venuelook (October'23 - December'23)</p>
           <p className='xSummary' > Worked with senior developers and designers to redesign the company website <a style={{ color: 'inherit', fontWeight : '600' ,textDecoration: 'inherit' }} href="https://www.venuelook.com/"  target='_blank' rel='noreferrer'> (Venuelook) </a> . Simultaneously transformed the website from a PHP-based platform into a modern and responsive web application powered by ReactJS. </p>
 
@@ -166,6 +170,39 @@ export const Skills = () => {
           <div className="line"></div>
         </div>
 
+
+        <div className="techskills">
+
+          <h3 className='tHeading' style={{ paddingBottom: 15 }} >Analytical Tools</h3>
+
+          <div className="skillx">
+            <p className='tSkill'> Tableau </p>
+            <div className='knowledge'>
+              <div className="levelB"></div>
+              <div className="levelW"></div>
+              <div className="levelW"></div>
+            </div>
+          </div>
+          <div className="skillx">
+            <p className='tSkill'> R </p>
+            <div className='knowledge'>
+              <div className="levelB"></div>
+              <div className="levelW"></div>
+              <div className="levelW"></div>
+            </div>
+          </div>
+          <div className="skillx">
+            <p className='tSkill'> Snowflake </p>
+            <div className='knowledge'>
+              <div className="levelB"></div>
+              <div className="levelW"></div>
+              <div className="levelW"></div>
+            </div>
+          </div>
+
+          <div className="line"></div>
+        </div>
+
         <div className="hobbies">
           <h3 className='hHeading' >Hobbies</h3>
           <div className='hobbyContainer' >
@@ -194,7 +231,7 @@ export const Skills = () => {
           <div className='contactContainer' >
             <div className='cInfo' >
               <img src={phone} height="30px" alt="cell" />
-              <a href="tel:8800913015" style={{ color: 'inherit', textDecoration: 'inherit', paddingLeft: "15px" }}  >  8800913015</a>
+              <a href="tel:+91 8800913015" style={{ color: 'inherit', textDecoration: 'inherit', paddingLeft: "15px" }}  >  +91 8800913015</a>
             </div>
             <div className='cInfo' >
               <img src={mail} height="25px" alt="cell" />
