@@ -30,15 +30,24 @@ export const Skills = () => {
           <h3 className='xHeading' >Practical Experience</h3>
           <br />
           
+<<<<<<< HEAD
           <p className='xCompany' > Data Engineer • Full-time •  ZS (May'24 - Present)</p>
           <p className='xSummary' > Working with Consaltants and Associate Consultants and other analysts to clean and interpret data of Pfizer to help them grow in the pharmaceutical industry (Inflammation & Immunology). Also Developed multiple interactive dashboards using Tableau and Power BI to enable Pfizer managers to monitor brand performance and make data-driven management decisions. </p>
+=======
+          <p className='xCompany' > Data Analyst • Full-time •  ZS (May'24 - Present)</p>
+          <p className='xSummary' > Working with Consaltants and Associate Consultants and other analysts to clean and interpret data of Pfizer to help them grow in the pharmaceutical industry (Rare Diseases and Oncology). </p>
+>>>>>>> 58849598a7e57b541ba0a5d7426a0b1c3c7a2fe7
 
 
           <p className='xCompany' > Software Engineer • Full-time •  Venuelook (October'23 - December'23)</p>
           <p className='xSummary' > Worked with senior developers and designers to redesign the company website <a style={{ color: 'inherit', fontWeight : '600' ,textDecoration: 'inherit' }} href="https://www.venuelook.com/"  target='_blank' rel='noreferrer'> (Venuelook) </a> . Simultaneously transformed the website from a PHP-based platform into a modern and responsive web application powered by ReactJS. </p>
 
           
+<<<<<<< HEAD
           <p className='xCompany' > Software Developer Intern • Internship •  Alphech Global Pvt Ltd  (August'23 - September'23)</p>
+=======
+          <p className='xCompany' > Software Developer • Part-time •  Alphech Global Pvt Ltd  (August'23 - Present)</p>
+>>>>>>> 58849598a7e57b541ba0a5d7426a0b1c3c7a2fe7
           <p className='xSummary' > Worked on multiple live projects in parallel. Developed a SAAS-based software called <a style={{ color: 'inherit', fontWeight : '600' ,textDecoration: 'inherit' }} href="https://seniorlife-nprd.azurewebsites.net/"  target='_blank' rel='noreferrer'> Senior Life </a> using MERN stack, for an international client 🇲🇽 . Also worked on one of the company products and developed the frontend and the backend APIs using NestJS along with team members. </p>
 
           <p className='xCompany' > MERN Developer Intern • Internship • CoreTech Info (April'23 - May'23)</p>
@@ -116,7 +125,11 @@ export const Skills = () => {
             <p className='tSkill'> SQL </p>
             <div className='knowledge'>
               <div className="levelB"></div>
+<<<<<<< HEAD
               <div className="levelB"></div>
+=======
+              <div className="levelW"></div>
+>>>>>>> 58849598a7e57b541ba0a5d7426a0b1c3c7a2fe7
               <div className="levelW"></div>
             </div>
           </div><div className="skillx">
@@ -184,6 +197,17 @@ export const Skills = () => {
             </div>
           </div>
           <div className="skillx">
+<<<<<<< HEAD
+=======
+            <p className='tSkill'> R </p>
+            <div className='knowledge'>
+              <div className="levelB"></div>
+              <div className="levelW"></div>
+              <div className="levelW"></div>
+            </div>
+          </div>
+          <div className="skillx">
+>>>>>>> 58849598a7e57b541ba0a5d7426a0b1c3c7a2fe7
             <p className='tSkill'> Snowflake </p>
             <div className='knowledge'>
               <div className="levelB"></div>
